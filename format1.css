@@ -1,0 +1,95 @@
+/* Reset básico */
+ body, h1, h2, h3, p, ul, blockquote, address {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Georgia', serif; /* Fonte com um toque clássico e robusto */
+    line-height: 1.6;
+    color: #3c3c3c;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-denim.png'); /* Textura de fundo rústica */
+}
+
+/* Header */
+header {
+    background-color: #4a4a4a; /* Tom escuro para um efeito mais rústico */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 5px solid #8c5e3c; /* Linha inferior para um toque mais robusto */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif; /* Fonte mais tradicional para o título */
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/* Main content */
+main {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #8c5e3c; /* Borda rústica para o container principal */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8c5e3c; /* Linha inferior para destaque */
+    padding-bottom: 10px;
+} 
+section img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+ul li::before {
+    content: "\2022"; /* Adiciona um marcador estilo ponto */
+    color: #8c5e3c; /* Cor do marcador */
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 5px solid #8c5e3c; /* Borda robusta para o bloco de citação */
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #4a4a4a;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
